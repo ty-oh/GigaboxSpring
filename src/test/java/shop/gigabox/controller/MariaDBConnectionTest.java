@@ -9,7 +9,7 @@ import org.junit.Test;
 public class MariaDBConnectionTest {
 	
 	private static final Logger log = Logger.getLogger(MariaDBConnectionTest.class);
-    	String url ="jdbc:mariadb://34.127.85.31:3306/user=Root&password=password";
+    	String url ="jdbc:mariadb://localhost:3306/test?user=scott&password=tiger";
 	
 	@Test
 	public void connectionTest() {
